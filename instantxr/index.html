@@ -58,12 +58,23 @@
           <div class="column has-text-centered">
             <div class="publication-links">
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2011.12948"
+                <a href="#TODO"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-acmdl"></i>
                   </span>
                   <span>View paper on ACM Digital Library</span>
+                </a>
+              </span>
+              
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Demo Video</span>
                 </a>
               </span>
               <br>
@@ -112,11 +123,8 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          <p>          
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus at velit eget commodo. Nam blandit fermentum nisl, nec faucibus orci accumsan non. Maecenas feugiat nunc a pharetra accumsan. Sed iaculis, lacus porta faucibus maximus, tellus arcu tincidunt arcu, in ultricies magna tellus in erat. Mauris et ex ut mauris pulvinar pharetra ac egestas nibh. Duis vel ante non ligula ornare iaculis ac sit amet eros. Morbi elit leo, semper vitae ipsum eu, volutpat pellentesque dolor. Praesent varius ullamcorper rutrum. Cras quis nibh a eros vulputate ullamcorper. Mauris non ornare nibh. Maecenas feugiat massa quis convallis dapibus. Vestibulum ac dolor placerat, congue est aliquet, euismod mauris. Etiam metus erat, facilisis gravida libero sed, interdum faucibus dui. Suspendisse a pretium justo. Praesent commodo metus vel metus posuere elementum.
-          </p>
-          <p>          
-            Mauris semper sem vel consequat feugiat. Curabitur dapibus velit vel est dignissim dapibus. Integer vel urna nec mi tempus condimentum. Pellentesque pellentesque nisl in ipsum malesuada dignissim. Etiam dignissim, felis nec feugiat hendrerit, enim neque hendrerit nisl, id convallis orci lorem feugiat enim. Proin elementum interdum elit et placerat. Aenean non tortor eget lorem vulputate lobortis. Etiam ante nisi, ornare vel lacus nec, ornare aliquet ante. Nunc suscipit sodales cursus. Nunc a nunc arcu. Fusce sed nunc in nisl pretium ullamcorper et non leo. Vestibulum vel leo nibh. Fusce at lectus et nisl ultrices ornare. Phasellus efficitur est non vestibulum suscipit. Sed eros ipsum, aliquet at gravida ac, pharetra eu elit.
+          <p>
+            For an XR environment to be used on a real-life task, all contents should be created and delivered where they are required on time. To deliver an XR environment faster and correctly, the time spent on modeling should be considerably reduced or eliminated. In this paper, we propose a hybrid method that fuses the conventional method of rendering 3D assets with the neural radiance fields (NeRF) technology, which uses photographs to create and display an instantly generated XR environment in real-time, without a modeling process. Although NeRF generates a relatively realistic space with less effort, it has disadvantages owing to its high computational complexity. We propose a cloud-based distributed acceleration architecture to reduce computational latency. Furthermore, we implemented an XR streaming structure that can process the input from an XR device in real-time. Consequently, our proposed hybrid method for real-time XR generation using NeRF and 3D graphics is available for lightweight mobile XR clients, such as untethered HMDs. The proposed technology makes it possible to quickly virtualize one location and deliver it to another remote location, thus making virtual sightseeing and remote collaboration more accessible to the public.
           </p>
         </div>
       </div>
@@ -131,50 +139,51 @@
 
     <div class="columns is-centered">
 
-      <!-- Visual Effects. -->
+      <!-- InstantXR. -->
       <div class="column">
         <div class="content">
-          <h2 class="title is-3">Column A</h2>
+          <h2 class="title is-3">InstantXR</h2>
           <p>          
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus at velit eget commodo. Nam blandit fermentum nisl, nec faucibus orci accumsan non. Maecenas feugiat nunc a pharetra accumsan. Sed iaculis, lacus porta faucibus maximus, tellus arcu tincidunt arcu, in ultricies magna tellus in erat. Mauris et ex ut mauris pulvinar pharetra ac egestas nibh. Duis vel ante non ligula ornare iaculis ac sit amet eros. Morbi elit leo, semper vitae ipsum eu, volutpat pellentesque dolor. Praesent varius ullamcorper rutrum. Cras quis nibh a eros vulputate ullamcorper. Mauris non ornare nibh. Maecenas feugiat massa quis convallis dapibus. Vestibulum ac dolor placerat, congue est aliquet, euismod mauris. Etiam metus erat, facilisis gravida libero sed, interdum faucibus dui. Suspendisse a pretium justo. Praesent commodo metus vel metus posuere elementum.
+            6DoF Navigation is freely available with the hybrid rendering of cloud-based NeRF.
           </p>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="https://homes.cs.washington.edu/~kpar/nerfies/videos/dollyzoom-stacked.mp4"
-                    type="video/mp4">
-          </video>
+
+          <div class="publication-video">
+            <iframe src="https://www.youtube.com/embed/QI3omHWPKrY?rel=0&amp;showinfo=0"
+                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
-      <!--/ Visual Effects. -->
+      <!--/ InstantXR. -->
 
-      <!-- Matting. -->
+      <!-- 360° Video. -->
       <div class="column">
-        <h2 class="title is-3">Column B</h2>
+        <h2 class="title is-3">360° Video</h2>
         <div class="columns is-centered">
           <div class="column content">
             <p>          
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus at velit eget commodo. Nam blandit fermentum nisl, nec faucibus orci accumsan non. Maecenas feugiat nunc a pharetra accumsan. Sed iaculis, lacus porta faucibus maximus, tellus arcu tincidunt arcu, in ultricies magna tellus in erat. Mauris et ex ut mauris pulvinar pharetra ac egestas nibh. Duis vel ante non ligula ornare iaculis ac sit amet eros. Morbi elit leo, semper vitae ipsum eu, volutpat pellentesque dolor. Praesent varius ullamcorper rutrum. Cras quis nibh a eros vulputate ullamcorper. Mauris non ornare nibh. Maecenas feugiat massa quis convallis dapibus. Vestibulum ac dolor placerat, congue est aliquet, euismod mauris. Etiam metus erat, facilisis gravida libero sed, interdum faucibus dui. Suspendisse a pretium justo. Praesent commodo metus vel metus posuere elementum.
+              Only rotation and zoom are available, but translation is not avalible with conventional 360° video.
             </p>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="https://homes.cs.washington.edu/~kpar/nerfies/videos/matting.mp4"
-                      type="video/mp4">
-            </video>
+            <div class="publication-video">
+              <iframe src="https://www.youtube.com/embed/uJj9m_C0fpc?rel=0&amp;showinfo=0"
+                      frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
           </div>
 
         </div>
       </div>
     </div>
-    <!--/ Matting. -->
+    <!--/ 360° Video. -->
 
     <!-- Concurrent Work. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Related Links</h2>
         <div class="content has-text-justified">
-          <p>          
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus at velit eget commodo. Nam blandit fermentum nisl, nec faucibus orci accumsan non. Maecenas feugiat nunc a pharetra accumsan. Sed iaculis, lacus porta faucibus maximus, tellus arcu tincidunt arcu, in ultricies magna tellus in erat. Mauris et ex ut mauris pulvinar pharetra ac egestas nibh. Duis vel ante non ligula ornare iaculis ac sit amet eros. Morbi elit leo, semper vitae ipsum eu, volutpat pellentesque dolor. Praesent varius ullamcorper rutrum. Cras quis nibh a eros vulputate ullamcorper. Mauris non ornare nibh. Maecenas feugiat massa quis convallis dapibus. Vestibulum ac dolor placerat, congue est aliquet, euismod mauris. Etiam metus erat, facilisis gravida libero sed, interdum faucibus dui. Suspendisse a pretium justo. Praesent commodo metus vel metus posuere elementum.
+          <p>
+            To provide a background for remote collaboration, <a href="#">AA</a> used a LiDAR camera of iPad to create a point cloud.
           </p>
-          <p>          
-            Mauris semper sem vel consequat feugiat. Curabitur dapibus velit vel est dignissim dapibus. Integer vel urna nec mi tempus condimentum. Pellentesque pellentesque nisl in ipsum malesuada dignissim. Etiam dignissim, felis nec feugiat hendrerit, enim neque hendrerit nisl, id convallis orci lorem feugiat enim. Proin elementum interdum elit et placerat. Aenean non tortor eget lorem vulputate lobortis. Etiam ante nisi, ornare vel lacus nec, ornare aliquet ante. Nunc suscipit sodales cursus. Nunc a nunc arcu. Fusce sed nunc in nisl pretium ullamcorper et non leo. Vestibulum vel leo nibh. Fusce at lectus et nisl ultrices ornare. Phasellus efficitur est non vestibulum suscipit. Sed eros ipsum, aliquet at gravida ac, pharetra eu elit.
+          <p>
+            TODO
           </p>
         </div>
       </div>
