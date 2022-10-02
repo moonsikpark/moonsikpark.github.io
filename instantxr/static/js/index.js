@@ -1,5 +1,5 @@
 var _paq = window._paq || [];
-_paq.push(["setRequestMethod", "POST"]);
+_paq.push(["setRequestMethod", "GET"]);
 _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
 _paq.push(["setCookieDomain", "moonsikpark.github.io"]);
 _paq.push([
